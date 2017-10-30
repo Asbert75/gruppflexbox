@@ -13,4 +13,4 @@ OM - Om företaget och varje individ.
 
 
 
-Responsivt - Hamburgare för tablet och mobil. 
+Responsivt - Hamburgare för tablet och mobil. .

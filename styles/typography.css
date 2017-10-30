@@ -1,0 +1,27 @@
+/*
+    Feather Blue #77C9D4
+    Marine Green #57BC90
+    Green #52e465
+    Forest Green #015249
+    Sleek Grey #A5A5AF
+    Casual White #ccc
+*/
+
+body {
+    font-family: "Open Sans";
+}
+
+p, h1, h2, h3, h4 {
+    color: white;
+}
+
+a {
+    transition: color 0.2s linear;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    transition: color 0.2s linear;
+    color: #52e465;
+}

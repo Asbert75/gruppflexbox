@@ -1,0 +1,16 @@
+
+NAV / HEADER  - Simpel nav. HEM - SHOP - PRODUKT - OM
+BILD - Bild som knyter an till produkten/företaget. Opacity nav/header över bakgrundsbild.
+Footer - Footer med lite allmän kontakt-info. Email/Adress Sociala medier.
+
+
+
+
+HEM - Landingssida.
+SHOP - Rutnät med produkten.
+PRODUKT - Om produkten, information, teknik osv.
+OM - Om företaget och varje individ.
+
+
+
+Responsivt - Hamburgare för tablet och mobil. 

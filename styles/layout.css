@@ -12,32 +12,38 @@ body {
 }
 
 .header {
-    height: 550px;
+    height: 650px;
     width: 100%;
     position: absolute;
     top: 0;
     z-index: -1;
-    background: #d8bbbb;
+    background-image: url(../images/mountain.jpeg);
 }
 
-nav > div > ul > li {
+nav {
+    margin-left: 6em;
+    margin-top: 4em;
+}
+
+nav li {
+    padding-bottom: 0.5em;
     display: inline-block;
     margin-right: 1.5em;
 }
 
-nav > div > ul > li:first-child {
-    margin-right: 2.5em;
+nav li:first-of-type {
+    margin-right: 3em;
 }
 
-footer {
-    margin-top: 60em;
+nav li:hover {
+    border-bottom: 2px solid rgb(71, 230, 124);
 }
 
-footer > div > ul {
+footer ul {
     list-style-type: none;
 }
 
-.flexContainer {
+footer .flexContainer {
     background-color: rgb(82, 228, 101);
     padding-top: 3em;
     padding-bottom: 3em;
@@ -48,7 +54,7 @@ footer > div > ul {
     justify-content: flex-start;
 }
 
-.flexItem {
+footer .flexItem {
     flex: 0 0 auto;
     margin: 1em 3em;
 }

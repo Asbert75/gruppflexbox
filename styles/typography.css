@@ -15,13 +15,19 @@ p, h1, h2, h3, h4 {
     color: white;
 }
 
-a {
-    transition: color 0.2s linear;
-    color: #ffffff;
-    text-decoration: none;
+nav h3 {
+    font-size: 2em;
 }
 
-a:hover {
-    transition: color 0.2s linear;
-    color: #52e465;
+nav {
+    text-transform: uppercase;
+}
+
+nav a {
+    font-weight: 600;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
 }

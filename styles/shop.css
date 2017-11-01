@@ -38,6 +38,7 @@ main .flexItem p {
 }
 
 main .flexItem button {
+    transition: all 0.2s linear;
     height: 40px;
     width: 125px;
     
@@ -48,6 +49,7 @@ main .flexItem button {
 }
 
 main .flexItem button:hover {
+    transition: all 0.2s linear;
     background: #47c754;
     cursor: pointer;
 }
@@ -113,7 +115,7 @@ main h2 {
 }
 
 .deathadder .name::after {
-    content: "Razer Deathadder";
+    content: "Razer DeathAdder";
 }
 
 .deathadder .itemDescription::after {
@@ -157,10 +159,36 @@ form ul li {
 }
 
 main a {
+    transition: color 0.2s linear;
     color: #52e465;
     text-decoration: none;
 }
 
 main a:hover {
+    transition: color 0.2s linear;
     color: #47c754;
+}
+
+
+.deals {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.img1 {
+    width: 60%;
+    display: block;
+    margin: 5em auto;
+}
+
+.img2 {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+.img3 {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
 }

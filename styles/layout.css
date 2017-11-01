@@ -34,14 +34,6 @@ nav li {
     margin-right: 1.5em;
 }
 
-nav li:hover {
-    border-bottom: 2px solid #52e465;
-}
-
-nav li:first-of-type:hover {
-    border-bottom: none;
-}
-
 nav li:first-of-type {
     margin-right: 3em;
 }
@@ -52,6 +44,8 @@ footer ul {
 
 footer ul li {
     margin-bottom: 0.3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 footer ul li:first-of-type {
@@ -77,5 +71,13 @@ footer .flexItem {
 }
 
 footer {
-    background: #52e465;
+    background: black;
+}
+
+select {
+    border: 1px solid #52e465;
+}
+
+select:focus {
+    outline: 0;
 }

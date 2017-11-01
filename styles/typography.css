@@ -19,15 +19,17 @@ nav h3 {
     font-size: 2em;
 }
 
-nav {
-    text-transform: uppercase;
+nav h3 {
+    color: white;
 }
 
 nav a {
     font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
 }
 
-a {
-    color: #ffffff;
+footer a {
+    color: #383838;
     text-decoration: none;
 }

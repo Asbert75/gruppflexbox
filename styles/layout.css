@@ -26,10 +26,6 @@ nav {
     left: 6em;
 }
 
-nav li:first-of-type:hover {
-    border-bottom: none;
-}
-
 nav li {
     padding-bottom: 0.5em;
     display: inline-block;
@@ -42,6 +38,10 @@ nav li:first-of-type {
 
 nav li:hover {
     border-bottom: 2px solid #52e465;
+}
+
+nav li:first-of-type:hover {
+    border-bottom: none;
 }
 
 footer ul {

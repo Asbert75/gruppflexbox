@@ -1,0 +1,110 @@
+/***GLOBAL***/
+main {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  background-color: gren;
+  margin: 75px 6em 75px 6em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.flex-item1 {
+  background-color: rd;
+  flex: 0 0 auto;
+}
+
+.flex-item1 h3 {
+  font-weight: normal;
+  font-size: 35px;
+  color: black;
+}
+
+.flex-item1 p {
+  background-color: rd;
+  display: inline-block;
+  margin: 30px 0 0 0;
+  max-width: 710px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  word-spacing: 1px;
+}
+.flex-container2 {
+  background-color: gra;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 6em 0 6em;
+}
+
+.flex-item-one {
+  float: right;
+  background-color: lightgray;
+  padding: 0;
+  flex: 0 0 45%;
+  margin: 0 4.9em 0 0;
+}
+
+.flex-item-two{
+  background-color: lightgray;
+  flex: 0 0 45%;
+  padding: 0px 0 0 0;
+  margin: 0px 0 0 0;
+}
+.flex-item-one img {
+  width: 100%;
+  margin: 0;
+}
+.flex-item-two img {
+  width: 100%;
+  margin: 0;
+}
+
+
+.flex-item-one p{
+  float: right;
+  position: relative;
+  float: right;
+  margin: -50px 35px 0 0;
+  padding: 0;
+}
+
+.flex-item-two p {
+  position: relative;
+  float: right;
+  margin: -50px 35px 0 0;
+  padding: 0;
+}
+.flex-container2 p a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 8px;
+  border: 0.5px solid white;
+  border-radius: 2px;
+}
+
+.flex-container2 a:hover {
+  transition: 0.2s linear;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.text-bild {
+  font-size: 25px;
+  position: relative;
+  font-weight: normal;
+  color: white;
+  left: -230px;
+  top: -320px
+}
+
+.buy-now {
+  position: relative;
+  color: white;
+  font-size: 25px;
+  top: -315px;
+}

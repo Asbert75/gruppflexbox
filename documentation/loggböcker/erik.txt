@@ -2,3 +2,5 @@
 Jag har satt upp en repository och gjort alla till collaborators och sedan har vi skapat varsin branch. Jag skapade en filstruktur som
 är tänkt att vara enkel att förstå och lätt att arbeta med, det finns 2 övergripande css-filer där den delade stylingen för alla dokument
 finns, typography.css och layout.css. Sen har vi också 1 eller fler specifika css-filer per html sida.
+
+2017-10-31: Idag fortsatte jag arbetet på att strukturera nav och footer samt att jag påbörjade arbetet på shop-sidan genom att lägga ut griden och lägga in content/bilder.

@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="../styles/layout.css" />
     <link rel="stylesheet" type="text/css" href="../styles/typography.css" />
     <link rel="stylesheet" type="text/css" href="../styles/shop.css" />
+
+    <link rel="stylesheet" type="text/css" href="../styles/font-awesome.css" />
 </head>
 <body>
     <div class="container">
@@ -40,133 +42,159 @@
 
         <main>
             <h2>Our Assortment</h2>
-
-            <div class="search">
-                <form>
-                    <h3>Manufacturers</h3>
-                    <input id="razer" type="checkbox">
-                    <label for="razer">Razer (6)</label>
-
-                    <input id="logitech" type="checkbox">
-                    <label for="logitech">Logitech (3)</label>
-
-                    <input id="steelseries" type="checkbox">
-                    <label for="steelseries">SteelSeries (2)</label>
-
-                    <input id="asus" type="checkbox">
-                    <label for="asus">ASUS (5)</label>
-
-                    <input id="roccat" type="checkbox">
-                    <label for="roccat">ROCCAT (1)</label>
-
-
-                    <datalist id="options">
-                        <option value="Price Asc.">
-                        <option value="Price Desc.">
-                        <option value="Name Asc.">
-                        <option value="Name Desc.">
-                    </datalist>
-
-                    <h3>Sort By</h3>
-                    <input list="options">
-                </form>
+            <!--
+            <div class="deals">
+                <img class="img1" src="../images/mouse2.jpeg" alt="Img">
+                <img class="img2" src="../images/mouse3.jpeg" alt="Img3">
+                <img class="img3" src="../images/mouse.jpeg" alt="Img2">
             </div>
+        -->
+            <div class="cart">
+                <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> My Cart (0 items)</a>
+            </div>
+
+            <form class="search">
+                <div class="setting">
+                    <h3>Manufacturers</h3>
+                    <ul>
+                        <li>
+                            <input id="razer" type="checkbox">
+                            <label for="razer">Razer (6)</label>
+                        </li>
+                        <li>
+                            <input id="logitech" type="checkbox">
+                            <label for="logitech">Logitech (3)</label>
+                        </li>
+                        <li>
+                            <input id="steelseries" type="checkbox">
+                            <label for="steelseries">SteelSeries (2)</label>
+                        </li>
+                        <li>
+                            <input id="asus" type="checkbox">
+                            <label for="asus">ASUS (5)</label>
+                        </li>
+                        <li>
+                            <input id="roccat" type="checkbox">
+                            <label for="roccat">ROCCAT (1)</label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="setting">
+                    <h3>Sort By</h3>
+                    <select name="sorting">
+                        <option value="Price Ascending">Price Asc.</option>
+                        <option value="Price Descending">Price Desc.</option>
+                        <option value="Name Ascending">Name Asc.</option>
+                        <option value="Name Descending">Name Desc.</option>
+                    </select>
+                </div>
+
+                <div class="setting">
+                    <h3>Wireless</h3>
+                    <input type="radio" id="yes" name="wireless">
+                    <label for="yes">Yes</label>
+
+                    <input type="radio" id="no" name="wireless">
+                    <label for="no">No</label>
+                </div>
+            </form>
 
             <div class="flexContainer">
                 <div class="flexItem naga">
                     <h3 class="name"></h3>
                     <img src="../images/mouse.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
+                    <h3 class="price">699:-</h3>
                     <button class="buy">Add to Cart</button>
-                    <button class="info">More Information</button>
                 </div>
 
                 <div class="flexItem deathadder">
                     <h3 class="name"></h3>
-                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <img src="../images/mouse3.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
+                    <h3 class="price">899:-</h3>
                     <button class="buy">Add to Cart</button>
-                    <button class="info">More Information</button>
                 </div>
 
                 <div class="flexItem rival">
                     <h3 class="name"></h3>
-                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <img src="../images/mouse2.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
+                    <h3 class="price">1.299:-</h3>
                     <button class="buy">Add to Cart</button>
-                    <button class="info">More Information</button>
                 </div>
 
                 <div class="flexItem sensei">
                     <h3 class="name"></h3>
                     <img src="../images/mouse.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
+                    <h3 class="price">350:-</h3>
                     <button class="buy">Add to Cart</button>
-                    <button class="info">More Information</button>
                 </div>
 
                 <div class="flexItem rival">
                     <h3 class="name"></h3>
-                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <img src="../images/mouse2.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
+                    <h3 class="price">1.299:-</h3>
                     <button class="buy">Add to Cart</button>
-                    <button class="info">More Information</button>
+                </div>
+
+                <div class="flexItem deathadder">
+                    <h3 class="name"></h3>
+                    <img src="../images/mouse2.jpeg" alt="Mouse">
+                    <p class="itemDescription"></p>
+                    <h3 class="price">899:-</h3>
+                    <button class="buy">Add to Cart</button>
                 </div>
 
                 <div class="flexItem deathadder">
                     <h3 class="name"></h3>
                     <img src="../images/mouse.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
+                    <h3 class="price">899:-</h3>
                     <button class="buy">Add to Cart</button>
-                    <button class="info">More Information</button>
-                </div>
-
-                <div class="flexItem deathadder">
-                    <h3 class="name"></h3>
-                    <img src="../images/mouse.jpeg" alt="Mouse">
-                    <p class="itemDescription"></p>
-                    <button class="buy">Add to Cart</button>
-                    <button class="info">More Information</button>
                 </div>
 
                 <div class="flexItem rival">
                     <h3 class="name"></h3>
-                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <img src="../images/mouse3.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
+                    <h3 class="price">1.299:-</h3>
                     <button class="buy">Add to Cart</button>
-                    <button class="info">More Information</button>
                 </div>
 
                 <div class="flexItem naga">
                     <h3 class="name"></h3>
-                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <img src="../images/mouse2.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
+                    <h3 class="price">699:-</h3>
                     <button class="buy">Add to Cart</button>
-                    <button class="info">More Information</button>
                 </div>
 
                 <div class="flexItem sensei">
                     <h3 class="name"></h3>
-                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <img src="../images/mouse3.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
+                    <h3 class="price">350:-</h3>
                     <button class="buy">Add to Cart</button>
-                    <button class="info">More Information</button>
                 </div>
 
                 <div class="flexItem deathadder">
                     <h3 class="name"></h3>
-                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <img src="../images/mouse2.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
+                    <h3 class="price">899:-</h3>
                     <button class="buy">Add to Cart</button>
-                    <button class="info">More Information</button>
                 </div>
 
                 <div class="flexItem rival">
                     <h3 class="name"></h3>
                     <img src="../images/mouse.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
+                    <h3 class="price">1.299:-</h3>
                     <button class="buy">Add to Cart</button>
-                    <button class="info">More Information</button>
                 </div>
             </div>
         </main>

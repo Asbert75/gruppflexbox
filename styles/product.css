@@ -1,33 +1,38 @@
        .bg {
-            background-image: url("https://static.pexels.com/photos/81782/theme-workspaces-81782.jpeg");
-            height: 100;
+            background-image: url("https://static.pexels.com/photos/84763/pexels-photo-84763.jpeg");
+            height: auto;
             width: 100%;
             background-position: center;
             background-repeat: no-repeat;
-            background-size: cover;
-            padding: 0;
-            margin: 0;
+            background-size: 100%;
+            
             
         }
        
                     
         .container1 {
                     display: block;
-            
                     background-color: black;
-                    opacity: 0.4;
-                    height: 100px;
-                    width: 1000px;
+                    color: white;
+                    font-size: 20px;
+                    font-family: sans-serif;
+                    text-emphasis-color: white;
+                    opacity: 0.6;
                     border-radius: 10px;
-                    word-break: break-all;
-                    white-space: normal;
+                    height: 100%;
+                    width: 100;
+                    
+                    
                 }
         .container2 {
                     display: block;
                     background-color: black;
-                    opacity: 0.4;
-                    height: 100px;
-                    width: 1000px;
+                    color: white;
+                    font-size: 20px;
+                    font-family: sans-serif;
+                    opacity: 0.6;
+                    height: 100%;
+                    width: 100%;
                     border-radius: 10px;
                 
                     
@@ -35,10 +40,27 @@
         .container3 {
                     display: block;
                     background-color: black;
-                    opacity: 0.4;
-                    height: 100px;
-                    width: 1000px;
+                    color: white;
+                    font-size: 20px;
+                    font-family: sans-serif;
+                    opacity: 0.6;
+                    height: 100%;
+                    width: 100%;
                     border-radius: 10px;
-                    text-emphasis-color: currentColor;
+                    
+                    
+                }
+
+         .container4 {
+                    display: block;
+                    background-color: black;
+                    color: white;
+                    font-size: 20px;
+                    font-family: sans-serif;
+                    opacity: 0.6;
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 10px;
+                    
                     
                 }

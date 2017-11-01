@@ -1,0 +1,44 @@
+       .bg {
+            background-image: url("https://static.pexels.com/photos/81782/theme-workspaces-81782.jpeg");
+            height: 100;
+            width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 0;
+            margin: 0;
+            
+        }
+       
+                    
+        .container1 {
+                    display: block;
+            
+                    background-color: black;
+                    opacity: 0.4;
+                    height: 100px;
+                    width: 1000px;
+                    border-radius: 10px;
+                    word-break: break-all;
+                    white-space: normal;
+                }
+        .container2 {
+                    display: block;
+                    background-color: black;
+                    opacity: 0.4;
+                    height: 100px;
+                    width: 1000px;
+                    border-radius: 10px;
+                
+                    
+                }
+        .container3 {
+                    display: block;
+                    background-color: black;
+                    opacity: 0.4;
+                    height: 100px;
+                    width: 1000px;
+                    border-radius: 10px;
+                    text-emphasis-color: currentColor;
+                    
+                }

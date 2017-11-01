@@ -13,9 +13,9 @@
         .container1 {
                     display: block;
                     float: inherit;
-                    background-color: black;
+                    background-color: white;
                     text-emphasis-color: white;
-                    opacity: 0.7;
+                    opacity: 0.6;
                     border-radius: 10px;
                     height: 100%;
                     width: 100;
@@ -25,7 +25,7 @@
         .container2 {
                     display: block;
                     float: inherit;
-                    background-color: black;
+                    background-color: white;
                     opacity: 0.6;
                     height: 100%;
                     width: 100%;
@@ -36,7 +36,8 @@
         .container3 {
                     display: block;
                     float: inherit;
-                    background-color: black;
+                    background-color: white;
+                    opacity: 0.6;
                     height: 100%;
                     width: 100%;
                     border-radius: 10px;
@@ -47,7 +48,7 @@
          .container4 {
                     display: block;
                     float: inherit;
-                    background-color: black;
+                    background-color: white;
                     opacity: 0.6;
                     height: 100%;
                     width: 100%;

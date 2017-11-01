@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Home: To Be Updated</title>
+    <title>MeMice</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1, minimum-scale=1"/>
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="../styles/reset.css" />
     <link rel="stylesheet" type="text/css" href="../styles/layout.css" />
@@ -18,7 +18,7 @@
             <div>
                 <ul>
                     <li>
-                        <h2>MeMice</h2>
+                        <h3>MeMice</h3>
                     </li>
                     <li>
                         <a href="#">Home</a>
@@ -36,47 +36,177 @@
             </div>
         </nav>
 
-        <main>
+        <div class="header"></div>
 
+        <main>
+            <h2>Our Assortment</h2>
+
+            <div class="search">
+                <form>
+                    <h3>Manufacturers</h3>
+                    <input id="razer" type="checkbox">
+                    <label for="razer">Razer (6)</label>
+
+                    <input id="logitech" type="checkbox">
+                    <label for="logitech">Logitech (3)</label>
+
+                    <input id="steelseries" type="checkbox">
+                    <label for="steelseries">SteelSeries (2)</label>
+
+                    <input id="asus" type="checkbox">
+                    <label for="asus">ASUS (5)</label>
+
+                    <input id="roccat" type="checkbox">
+                    <label for="roccat">ROCCAT (1)</label>
+
+
+                    <datalist id="options">
+                        <option value="Price Asc.">
+                        <option value="Price Desc.">
+                        <option value="Name Asc.">
+                        <option value="Name Desc.">
+                    </datalist>
+
+                    <h3>Sort By</h3>
+                    <input list="options">
+                </form>
+            </div>
+
+            <div class="flexContainer">
+                <div class="flexItem naga">
+                    <h3 class="name"></h3>
+                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <p class="itemDescription"></p>
+                    <button class="buy">Add to Cart</button>
+                    <button class="info">More Information</button>
+                </div>
+
+                <div class="flexItem deathadder">
+                    <h3 class="name"></h3>
+                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <p class="itemDescription"></p>
+                    <button class="buy">Add to Cart</button>
+                    <button class="info">More Information</button>
+                </div>
+
+                <div class="flexItem rival">
+                    <h3 class="name"></h3>
+                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <p class="itemDescription"></p>
+                    <button class="buy">Add to Cart</button>
+                    <button class="info">More Information</button>
+                </div>
+
+                <div class="flexItem sensei">
+                    <h3 class="name"></h3>
+                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <p class="itemDescription"></p>
+                    <button class="buy">Add to Cart</button>
+                    <button class="info">More Information</button>
+                </div>
+
+                <div class="flexItem rival">
+                    <h3 class="name"></h3>
+                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <p class="itemDescription"></p>
+                    <button class="buy">Add to Cart</button>
+                    <button class="info">More Information</button>
+                </div>
+
+                <div class="flexItem deathadder">
+                    <h3 class="name"></h3>
+                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <p class="itemDescription"></p>
+                    <button class="buy">Add to Cart</button>
+                    <button class="info">More Information</button>
+                </div>
+
+                <div class="flexItem deathadder">
+                    <h3 class="name"></h3>
+                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <p class="itemDescription"></p>
+                    <button class="buy">Add to Cart</button>
+                    <button class="info">More Information</button>
+                </div>
+
+                <div class="flexItem rival">
+                    <h3 class="name"></h3>
+                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <p class="itemDescription"></p>
+                    <button class="buy">Add to Cart</button>
+                    <button class="info">More Information</button>
+                </div>
+
+                <div class="flexItem naga">
+                    <h3 class="name"></h3>
+                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <p class="itemDescription"></p>
+                    <button class="buy">Add to Cart</button>
+                    <button class="info">More Information</button>
+                </div>
+
+                <div class="flexItem sensei">
+                    <h3 class="name"></h3>
+                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <p class="itemDescription"></p>
+                    <button class="buy">Add to Cart</button>
+                    <button class="info">More Information</button>
+                </div>
+
+                <div class="flexItem deathadder">
+                    <h3 class="name"></h3>
+                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <p class="itemDescription"></p>
+                    <button class="buy">Add to Cart</button>
+                    <button class="info">More Information</button>
+                </div>
+
+                <div class="flexItem rival">
+                    <h3 class="name"></h3>
+                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <p class="itemDescription"></p>
+                    <button class="buy">Add to Cart</button>
+                    <button class="info">More Information</button>
+                </div>
+            </div>
         </main>
 
         <footer>
             <div class="flexContainer">
-                <div  class="flexItem">
+                <div class="flexItem">
                     <ul>
                         <li>
                             <h3>Contact Us</h3>
                         </li>
                         <li>
-                            <p>Address<br> Elisedalsvägen 25,<br>
-                                            44341 Göteborg</p>
+                            <p>Elisedalsvägen 24</p>
                         </li>
                         <li>
-                            <p>Telephone<br> 0704469696</p>
+                            <p>0704469696</p>
                         </li>
                         <li>
-                            <p>Mail<br> Stuff@Company.com</p>
+                            <p>Stuff@Company.com</p>
                         </li>
                     </ul>
                 </div>
                 <div class="flexItem">
-                <ul>
-                    <li>
-                        <h3>Social Media</h3>
-                    </li>
-                    <li>
-                        <p>LinkedIn</p>
-                    </li>
-                    <li>
-                        <p>Facebook</p>
-                    </li>
-                    <li>
-                        <p>Instagram</p>
-                    </li>
-                    <li>
-                        <p>Twitter</p>
-                    </li>
-                </ul>
+                    <ul>
+                        <li>
+                            <h3>Social Media</h3>
+                        </li>
+                        <li>
+                            <a href="#">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="#">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="#">Twitter</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </footer>

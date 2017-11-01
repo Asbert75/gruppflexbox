@@ -1,0 +1,115 @@
+main .flexContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2em;
+}
+
+main .flexItem {
+    flex: 0 0 300px;
+    margin: 10px;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #52e465;
+}
+
+main .flexItem img {
+    width: 90%;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+main .flexItem h3 {
+    margin-top: 1em;
+    margin-left: 1em;
+    font-size: 1.2em;
+}
+
+main .flexItem p {
+    margin: 1em;
+    margin-top: 0.5em;
+    line-height: 1.5em;
+}
+
+main .flexItem button {
+    height: 40px;
+    width: 125px;
+    
+    color: #383838;
+    background: #52e465;
+    outline: 0;
+    border: 0;
+}
+
+main .flexItem button:hover {
+    background: #47c754;
+    cursor: pointer;
+}
+
+main .flexItem .buy {
+    float: right;
+    margin-right: 1em;
+}
+
+main .flexItem .info {
+    float: left;
+    margin-left: 1em;
+}
+
+main h2 {
+    font-size: 2em;
+    margin-top: 2em;
+    margin-left: 17%
+}
+
+.search {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.naga .name::after {
+    content: "Razer Naga";
+}
+
+.naga .itemDescription::after {
+    content: "The Razer Naga’s revolutionary 12 button thumb grid has been \
+    outfitted with mechanical switches to give you tactile and audible feedback, so  \
+    you can be assured of every actuation.";
+}
+
+.deathadder .name::after {
+    content: "Razer Naga";
+}
+
+.deathadder .itemDescription::after {
+    content: "The Razer Naga’s revolutionary 12 button thumb grid has been \
+    outfitted with mechanical switches to give you tactile and audible feedback, so  \
+    you can be assured of every actuation.";
+}
+
+.rival .name::after {
+    content: "Razer Naga";
+}
+
+.rival .itemDescription::after {
+    content: "The Razer Naga’s revolutionary 12 button thumb grid has been \
+    outfitted with mechanical switches to give you tactile and audible feedback, so  \
+    you can be assured of every actuation.";
+}
+
+.sensei .name::after {
+    content: "Razer Naga";
+}
+
+.sensei .itemDescription::after {
+    content: "The Razer Naga’s revolutionary 12 button thumb grid has been \
+    outfitted with mechanical switches to give you tactile and audible feedback, so  \
+    you can be assured of every actuation.";
+}

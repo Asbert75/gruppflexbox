@@ -43,11 +43,14 @@
                 
                     
                 }
-        .img1 {
+        .img1 img {
+                    display: block;
+                    float: inherit;
                     opacity: 1;
                     margin-left: 1%;
-                    max-width: 1%; 
-                    max-height: auto;
+                    width: 30%;
+                    height: auto;
+                    
                     
             
             
@@ -68,9 +71,14 @@
                     
                     
                 }
-         .img2 {
+         .img2 img {
+             display: block;
+             float: inherit;
              opacity: 1;
              margin-left: 1%;
+             width: 30%;
+             height: 250px;
+             align-content: left;
     
                 }
          .container4 {
@@ -88,8 +96,10 @@
                     margin-left: 1%;
                     
                 }
-        .img3 {
+        .img3 img {
              opacity: 1;
              margin-left: 1%;
+             width: 30%;
+             height: 300px;
     
                 }

@@ -8,3 +8,5 @@ finns, typography.css och layout.css. Sen har vi också 1 eller fler specifika c
 2017-11-01: Fortsatt arbete på Shop.html och även omstrukturering av navigation och footer för alla sidor. Lagt in t.ex. en search-bar för shopsidan där man kan
 välja t.ex. vilken manufacturer man vill se (t.ex. visa endast Razer-mös eller SteelSeries-mös) och hur man vill sortera efter (pris, namn osv). En shopping-cart
 finns också men behöver fortsatt arbete för att bli snyggt.
+
+2017-11-02: Idag har jag mest arbetat på att få headern och footern responsiv, vilket alltså inkluderade att lägga in en hamburger-menu som fungerade utan javascript. Samt att fixa flex-stylingen på footern. Jag ändrade även lite på header-bilden så att den inte är lika hög på mobiler då det inte kändes nödvändigt. 

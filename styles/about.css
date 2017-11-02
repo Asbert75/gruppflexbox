@@ -34,6 +34,7 @@ a {
 .center {
 	text-align: center;
 }
+.mb-30 {margin-bottom: 30px;}
 
 /*Header styles*/
 header {
@@ -128,10 +129,109 @@ header {
 		left: 0;
 		position: absolute;
 		text-align: left;
+		line-height: 0.9;
 	}
 	#hero .column {
 		padding-left: 0;
 	} 
+
+	/*Intro text*/
+	section.intro-text {
+		background-color: white;
+		color: #666;
+		margin-bottom: 30px;
+    }
+    section.intro-text > .row {
+		padding-top: 6%;
+    	padding-bottom: 4%;
+    	padding-left: 0;
+    	padding-right: 0;
+    }
+
+		section.intro-text img {
+			vertical-align: top;
+			border: none;
+			max-width: 100%;
+			position: relative;
+			height: auto;
+			margin: 0 auto;
+		}
+
+		section.intro-text .text {
+			margin: 0 auto;
+		}
+			section.intro-text .text > h2 {
+				font-weight: 900;
+	    		color: #4d4d4d;
+	    		font-size: 2em;
+	    		letter-spacing: -.035em;
+	    		margin: 0 0 .7em;
+	    		line-height: 1em;
+	    		word-wrap: normal;
+	    		padding: 0;
+			}
+
+			section.intro-text .text > p {
+				padding: 0;
+    			margin: 0 0 2em;
+    		}
+
+    /*Section personal*/
+
+   #personal {
+   	color: #4d4d4d;
+   }
+   #personal .box {
+		margin-bottom: 30px;
+		min-height: 400px;
+		padding: 20px;
+		text-align: center;
+	}
+
+	#personal h2 {
+		font-weight: 900;
+	    color: #4d4d4d;
+	    font-size: 2em;
+	    letter-spacing: -.035em;
+	    margin: 0 0 .7em;
+	    line-height: 1em;
+	    word-wrap: normal;
+	    padding: 0;
+	}
+
+	#personal img {
+		max-width: 400px;
+		height: auto;
+		position: relative;
+		display: block;
+		margin: 20px auto;
+		padding: 20px;
+	}
+
+/*Footer styles*/
+#footerwrap {
+	background-color: #292929;
+    clear: both;
+    border-top: 1px solid rgba(0,0,0,.1);
+    text-align: center;
+    padding: 54px 0 2em;
+    color: #000;
+    min-height: 250px;
+    color: white;
+    text-align: left;
+}
+	#footer {
+	    font-size: .9em;
+	    line-height: 1.8em;
+	    margin: 0 auto;
+	}
+
+	a.btn-las-mer {
+		color: white;
+	}
+	#footerwrap a:hover {
+		color: #e6e6e6;
+	}
 
 	/*Media queries*/
 
@@ -158,6 +258,9 @@ header {
 		}
 		#hero {
 			background-position: right center;
+		}
+		section.intro-text .text {
+			padding-top: 20px;
 		}
 	}
 

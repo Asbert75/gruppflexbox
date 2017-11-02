@@ -1,5 +1,5 @@
        .bg {
-            background-image: url("https://static.pexels.com/photos/84763/pexels-photo-84763.jpeg");
+            background-color: white;
             height: auto;
             width: 100%;
             background-position: center;
@@ -12,29 +12,30 @@
                     
         .container1 {
                     display: block;
+                    text-align: left;
                     float: inherit;
-                    background-color: black;
-                    color: white;
+                    background-color: gray;
+                    color: black;
                     font-size: 20px;
                     font-family: sans-serif;
-                    text-emphasis-color: white;
                     opacity: 0.7;
                     border-radius: 10px;
                     height: 100%;
-                    width: 100;
+                    width: 50%;
                     
                     
                 }
         .container2 {
                     display: block;
                     float: inherit;
-                    background-color: black;
-                    color: white;
+                    text-align: left;
+                    background-color: white;
+                    color: gray;
                     font-size: 20px;
                     font-family: sans-serif;
                     opacity: 0.6;
                     height: 100%;
-                    width: 100%;
+                    width: 50%;
                     border-radius: 10px;
                 
                     
@@ -42,13 +43,14 @@
         .container3 {
                     display: block;
                     float: inherit;
-                    background-color: black;
-                    color: white;
+                    text-align: left;
+                    background-color: white;
+                    color: gray;
                     font-size: 20px;
                     font-family: sans-serif;
                     opacity: 0.6;
                     height: 100%;
-                    width: 100%;
+                    width: 50%;
                     border-radius: 10px;
                     
                     
@@ -57,13 +59,14 @@
          .container4 {
                     display: block;
                     float: inherit;
-                    background-color: black;
-                    color: white;
+                    text-align: left;
+                    background-color: white;
+                    color: gray;
                     font-size: 20px;
                     font-family: sans-serif;
                     opacity: 0.6;
                     height: 100%;
-                    width: 100%;
+                    width: 50%;
                     border-radius: 10px;
                     
                     

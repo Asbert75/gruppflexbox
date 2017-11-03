@@ -13,11 +13,11 @@ body {
 	height: 100%;
 	word-wrap: break-word;
 	line-height: 30px;
-	min-width: 280px;
+	min-width: 320px;
 }
 
 .row {
-	min-width: 270px;
+	min-width: 300px;
 }
 #about_wrap {
 	padding-top: 0 !important;
@@ -35,6 +35,7 @@ a {
 	text-align: center;
 }
 .mb-30 {margin-bottom: 30px;}
+.mb-10 {margin-bottom: 10px;}
 
 /*Header styles*/
 header {
@@ -63,6 +64,9 @@ header {
 		padding: 0;
 		text-align: left;
 		transform: translateY(50%); /*Fits text into screen size*/
+	}
+	#logo:hover {
+    	color: #4d4d4d;
 	}
 	.logo-col {
 		min-width: 200px;
@@ -134,7 +138,9 @@ header {
 	#hero .column {
 		padding-left: 0;
 	} 
-
+    #hero a:hover {
+    	color: #4d4d4d;
+	}
 	/*Intro text*/
 	section.intro-text {
 		background-color: white;
@@ -208,6 +214,84 @@ header {
 		padding: 20px;
 	}
 
+	/*Section Adress*/
+	#adress {
+		background-color: white;
+		margin-bottom: 30px;
+	}
+		#adress .column {
+			margin-bottom: 30px;
+			margin-top: 30px;
+		} 
+
+		#adress h2 {
+			font-size: 2em;
+			font-weight: 900;
+	    	color: #4d4d4d;
+	    	letter-spacing: -.035em;
+	    	margin: 0 0 .7em;
+	    	line-height: 1em;
+	    	word-wrap: normal;
+		}
+
+		#adress .map {
+			padding: 0;
+			width: 100%
+		}
+
+	/*Section contuct*/
+	section.contact {
+	background-color: white;
+	color: #4d4d4d;
+	margin-bottom: 30px;
+}
+	div#formwrap {
+		border-radius: 4px;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	#form_content {
+			padding: 20px;
+	}
+  
+		section.contact h2 {
+			padding-top: 60px;
+			padding-bottom: 0;
+			padding-left: 20px;
+			padding-right: 20px;
+			font-size: 2em;
+			font-weight: 900;
+	    	color: #4d4d4d;
+	    	letter-spacing: -.035em;
+		} 
+
+	input {
+		 outline: none;
+		 transition: .2s all linear;
+		 display: flex;
+		 padding: 8px;
+		 width: 100%;
+		 margin: 10px 0;
+	}
+	textarea {
+		 outline: none;
+		 transition: .2s all linear;
+		 display: flex;
+		 padding: 8px;
+		 width: 100%;
+		 margin: 10px 0;
+	}
+	button.btn {
+		 color: #4d4d4d;
+		 border-radius: 5px;
+		 font-size: 16px;
+		 line-height: 100%;
+		 padding: 5px 10px 5px 10px;
+		 width: 8em;
+	}
+
+
 /*Footer styles*/
 #footerwrap {
 	background-color: #292929;
@@ -225,12 +309,29 @@ header {
 	    line-height: 1.8em;
 	    margin: 0 auto;
 	}
+	#footer a { 
+		color:white; 
+	}
+	#footer i {
+		padding-right: 10px;
+	}
 
 	a.btn-las-mer {
 		color: white;
 	}
 	#footerwrap a:hover {
-		color: #e6e6e6;
+		color: #4d4d4d;
+	}
+	#footer button.btn {
+		 color: #4d4d4d;
+		 border-radius: 5px;
+		 font-size: 16px;
+		 line-height: 100%;
+		 padding: 5px 10px 5px 10px;
+		 width: 8em;
+	}
+	#footer input {
+		max-width: 200px;
 	}
 
 	/*Media queries*/
@@ -267,5 +368,20 @@ header {
 	@media (max-width: 490px) {
 		#hero {
 			background-position: 70% center;
+		}
+		.row {
+			padding: 0;
+		}
+		#personal .column {
+			padding: 0;
+		}
+		#personal .box {
+			padding-right: 0;
+			padding-left: 0;
+		}
+		#personal img {
+			padding-right: 0;
+			padding-left: 0;
+			max-width: 300px;
 		}
 	}

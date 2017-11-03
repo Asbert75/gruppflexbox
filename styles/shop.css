@@ -151,7 +151,6 @@ form ul li {
     display: inline;
 }
 
-
 @media screen and (max-width: 900px) {
     form ul li {
         display: block;
@@ -168,7 +167,6 @@ main a:hover {
     transition: color 0.2s linear;
     color: #47c754;
 }
-
 
 .deals {
     width: 60%;

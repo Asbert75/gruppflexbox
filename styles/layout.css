@@ -48,7 +48,6 @@ footer ul {
 
 footer ul li {
     margin-bottom: 0.3em;
-    padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
 
@@ -71,7 +70,7 @@ footer .flexContainer {
 
 footer .flexItem {
     flex: 0 0 auto;
-    margin: 1em 3em;
+    margin: 2em 5em;
 }
 
 footer {
@@ -125,8 +124,8 @@ select:focus {
 
 .hamburger input {
     display: block;
-    width: 3em;
-    height: 3em;
+    width: 3.2em;
+    height: 3.2em;
     padding-left: 1em;
     position: absolute;
 
@@ -158,6 +157,5 @@ select:focus {
 .hamburger input:checked ~ ul {
     display: block;
 }
-
 
 

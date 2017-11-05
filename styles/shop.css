@@ -79,8 +79,14 @@ main h2 {
 }
 
 .cart a {
+    color: #383838;
     float: right;
     font-size: 1.1em;
+}
+
+.cart a span {
+    color: #52e465;
+    font-size: 0.8em;
 }
 
 .search {
@@ -151,7 +157,6 @@ form ul li {
     display: inline;
 }
 
-
 @media screen and (max-width: 900px) {
     form ul li {
         display: block;
@@ -169,26 +174,15 @@ main a:hover {
     color: #47c754;
 }
 
-
-.deals {
-    width: 60%;
-    margin-left: 20%;
+main .flexItem {
+    transition: all 0.3s linear;
 }
 
-.img1 {
-    width: 60%;
-    display: block;
-    margin: 5em auto;
+main .flexItem:hover {
+    transition: all 0.3s linear;
+    background: rgba(82, 228, 101, 0.2);
 }
 
-.img2 {
-    width: 40%;
-    display: block;
-    margin: 0 auto;
-}
-
-.img3 {
-    width: 40%;
-    display: block;
-    margin: 0 auto;
+main .flexItem img:hover {
+    cursor: pointer;
 }

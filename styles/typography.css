@@ -53,10 +53,15 @@ footer p, footer h2, footer h3, footer a {
 }
 
 footer h3 {
-    color: #383838;
+    color: #fcfcfc;
 }
 
 footer a:hover {
     transition: color 0.2s linear;
     color: #52e465;
+}
+
+.hamburger p {
+    font-size: 3em;
+    color: white !IMPORTANT;
 }

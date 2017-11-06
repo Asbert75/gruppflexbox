@@ -1,63 +1,3 @@
-<<<<<<< HEAD
-       .bg {
-            background-image: url("https://static.pexels.com/photos/84763/pexels-photo-84763.jpeg");
-            height: auto;
-            width: 100%;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: 100%;
-            
-            
-        }
-       
-                    
-        .container1 {
-                    display: block;
-                    float: inherit;
-                    background-color: white;
-                    text-emphasis-color: white;
-                    opacity: 0.6;
-                    border-radius: 10px;
-                    height: 100%;
-                    width: 100;
-                    
-                    
-                }
-        .container2 {
-                    display: block;
-                    float: inherit;
-                    background-color: white;
-                    opacity: 0.6;
-                    height: 100%;
-                    width: 100%;
-                    border-radius: 10px;
-                
-                    
-                }
-        .container3 {
-                    display: block;
-                    float: inherit;
-                    background-color: white;
-                    opacity: 0.6;
-                    height: 100%;
-                    width: 100%;
-                    border-radius: 10px;
-                    
-                    
-                }
-
-         .container4 {
-                    display: block;
-                    float: inherit;
-                    background-color: white;
-                    opacity: 0.6;
-                    height: 100%;
-                    width: 100%;
-                    border-radius: 10px;
-                    
-                    
-                }
-=======
 .bg {
     height: auto;
     width: 80%;
@@ -76,7 +16,11 @@
     padding-bottom: 1em;
 }
 
+.container2 img, .container3 img, .container4 img {
+    margin-top: 1em;
+    
+}
+
 .container1 h3, .container2 h3, .container3 h3, .container4 h3 {
     margin-bottom: 0.5em;
 }
->>>>>>> 65f578043693a39dc766ccc1b40ef66015bb5171

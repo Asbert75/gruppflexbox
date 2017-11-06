@@ -144,6 +144,7 @@ select:focus {
     z-index: -1;
     display: none;
     background: rgb(12, 12, 12);
+    padding-top: 7em;
     width: 100%;
 }
 

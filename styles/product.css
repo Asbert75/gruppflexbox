@@ -1,111 +1,3 @@
-<<<<<<< HEAD
-       .bg {
-            background-color: white;
-            height: auto;
-            width: 100%;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: 100%;
-            
-            
-        }
-       
-                    
-        .container1 {
-                    display: block;
-                    text-align: left;
-                    float: inherit;
-                    background-color: inherit;
-                    color: black;
-                    font-size: 20px;
-                    font-family: sans-serif;
-                    opacity: 0.7;
-                    border-radius: 10px;
-                    height: 100%;
-                    width: 50%;
-                    margin-left: 1%;
-            
-                    
-                    
-                }
-        .container2 {
-                    display: block;
-                    float: inherit;
-                    text-align: left;
-                    background-color: inherit;
-                    color: black;
-                    font-size: 20px;
-                    font-family: sans-serif;
-                    opacity: 0.6;
-                    height: 100%;
-                    width: 50%;
-                    border-radius: 10px;
-                    margin-left: 1%;
-                    
-                
-                    
-                }
-        .img1 img {
-                    display: block;
-                    float: inherit;
-                    opacity: 1;
-                    margin-left: 1%;
-                    width: 30%;
-                    height: auto;
-                    
-                    
-            
-            
-                    }
-        .container3 {
-                    display: block;
-                    float: inherit;
-                    text-align: left;
-                    background-color: inherit;
-                    color: black;
-                    font-size: 20px;
-                    font-family: sans-serif;
-                    opacity: 0.6;
-                    height: 100%;
-                    width: 50%;
-                    border-radius: 10px;
-                    margin-left: 1%;
-                    
-                    
-                }
-         .img2 img {
-             display: block;
-             float: inherit;
-             opacity: 1;
-             margin-left: 1%;
-             width: 30%;
-             height: 250px;
-             align-content: left;
-    
-                }
-         .container4 {
-                    display: block;
-                    float: inherit;
-                    text-align: left;
-                    background-color: inherit;
-                    color: black;
-                    font-size: 20px;
-                    font-family: sans-serif;
-                    opacity: 0.6;
-                    height: 100%;
-                    width: 50%;
-                    border-radius: 10px;
-                    margin-left: 1%;
-                    
-                }
-        .img3 img {
-             opacity: 1;
-             margin-left: 1%;
-             width: 30%;
-             height: 300px;
-    
-                }
-=======
 .bg {
     height: auto;
     width: 80%;
@@ -124,7 +16,11 @@
     padding-bottom: 1em;
 }
 
+.container2 img, .container3 img, .container4 img {
+    margin-top: 1em;
+    width: 100%;
+}
+
 .container1 h3, .container2 h3, .container3 h3, .container4 h3 {
     margin-bottom: 0.5em;
 }
->>>>>>> 0e6d45003220787c15be5088dc649a991fac4d43

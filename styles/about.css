@@ -7,6 +7,19 @@ html {
 	height: 100%;
 }
 
+hr {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	width: 50%;
+	border: 1px solid #52e465;
+}
+
+.mice {
+	border-bottom: 2px solid #52e465;
+	padding-bottom: 0.5em !IMPORTANT;
+}
+
 body {
 	font-family: 'Open Sans', Arial, sans-serif;
 	font: 1em/1.85em 'Open Sans', "Arial", sans-serif;
@@ -104,9 +117,6 @@ header {
 			}
 
 			#main_menu li a:hover {
-    			color: #52e465;
-			}
-			#main_menu li a.active {
     			color: #52e465;
 			}
 	.resp-menu {
@@ -276,7 +286,7 @@ header {
 	      	rgba(25, 25, 112, 0.1),
 	      	rgba(0, 0, 0, 0.1)
 	    	),
-    		url(../images/office.jpg);
+    		url(../images/bg2.png);
     background-position: center center;
     background-size: cover;
     position: relative;
@@ -572,4 +582,27 @@ header {
 			left: 5%;
 		}
 		
+	}
+
+	button {
+		cursor: pointer;
+		transition: all 0.2s linear;
+		font-family: "Open Sans" !IMPORTANT;
+		border: none;
+		outline: none;
+		background: rgb(12, 12, 12);
+		border-radius: 0% !IMPORTANT;
+		padding: 0.75em 1.5em 0.75em 1.5em !IMPORTANT;
+		color: white !IMPORTANT;
+		font-weight: 600;
+	}
+
+	button:hover {
+		transition: all 0.2s linear;
+		background: #52e465;
+	}
+
+	button:active {
+		transition: none;
+		background: #3da749;
 	}

@@ -1,0 +1,8 @@
+Log
+
+-	30/10 - idag har vi vårt första projektmöte där vi ska sätta upp Github och bestämma vem som ska arbeta med vad. Min del av vår hemsida blev ”About us” sidan.  Vi sökte efter inspirerande hemsidor. Vi har bestämt företagets namn.
+-	1/11 – idag bestämde vi general layout av vår hemsida. Jag kodade header och menu samt del av About sida.
+-	2/11 – idag tillade jag sections company intro and personal in to the About sida.
+-	3/11 – idag tillade jag sections: address, contact and footer in the About sida.
+-	4/11 – idag jobbade jag på hamburger menu.
+-	6/11 – idag sätter vi samman våra saker. Jag ändrade header section och menun på About sida så att det kan se ut liknande med andra sidor.

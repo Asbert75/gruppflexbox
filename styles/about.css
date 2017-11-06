@@ -11,7 +11,7 @@ body {
 	font-family: 'Open Sans', Arial, sans-serif;
 	font: 1em/1.85em 'Open Sans', "Arial", sans-serif;
 	height: 100%;
-	word-wrap: break-word;
+	word-wrap: normal;
 	line-height: 30px;
 	min-width: 320px;
 }
@@ -25,7 +25,7 @@ body {
 }
 
 .white {
-	color: white;
+	color: #fcfcfc;
 }
 
 a {
@@ -54,7 +54,7 @@ header {
 	}
 	/*Logo styles*/
 	header #logo {
-		font-size: 1.5em;
+		font-size: 2em;
 		text-decoration: none;
 		position: absolute;
 		font-weight: bold;
@@ -66,22 +66,30 @@ header {
 		transform: translateY(50%); /*Fits text into screen size*/
 	}
 	#logo:hover {
-    	color: #4d4d4d;
+    	color: #52e465;
 	}
 	.logo-col {
-		min-width: 200px;
+		min-width: 100px;
+		min-width: 11%;
+	}
+	.xs-two {
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 	/*Menu styles*/
-	header ul {
-		float: right;
+	header #main-nav {
+		float: left;
 		margin-top: 13px;
 		margin-right: 0;
 		list-style: none;
 		padding-left: 5px;
 		padding-right: 5px;
-		padding-bottom: 5px;
-		font-weight: bold;
+		padding-bottom: 0;
+		font-weight: 600;
+		font-size: 100%;
+		position: relative;
+		top: 7px;
 	}
 		header #main-nav li {
 			min-width: 70px;
@@ -90,17 +98,23 @@ header {
 			}
 
 			header #main-nav li a { 
-				color:white; 
+				color:white;
+				padding-top: 1.5em;
+				padding-bottom: 1.5em;
 			}
+
 			#main_menu li a:hover {
-    			border-bottom: 2px solid #52e465;
+    			color: #52e465;
 			}
 			#main_menu li a.active {
-    			border-bottom: 2px solid #52e465;
+    			color: #52e465;
 			}
 	.resp-menu {
 		display: none;
-		float: right;
+		float: left;
+	}
+	nav {
+		display: none;
 	}
 
 /*Responsive menu*/
@@ -126,7 +140,7 @@ header {
 	  display: block;
 	  position: relative;
 	  top: 10px;
-	  left: 70%;
+	  left: 2%;
 	  
 	  z-index: 1;
 	  
@@ -137,11 +151,11 @@ header {
 	#menuToggle input
 	{
 	  display: block;
-	  width: 40px;
+	  width: 768%;
 	  height: 32px;
 	  position: absolute;
 	  top: -7px;
-	  left: -5px;
+	  left: -20px;
 	  
 	  cursor: pointer;
 	  
@@ -218,11 +232,11 @@ header {
 	 */
 	#menu2
 	{
-	  position: absolute;
-	  width: 300px;
-	  margin: -100px 0 0 -120px;
-	  padding: 50px;
-	  padding-top: 125px;
+	  position: relative;
+	  width: 100%;
+	  margin: -100px 0  0 -20px;
+	  padding: 100px;
+	  padding-top: -50px;
 	  
 	  background: #292929;
 	  list-style-type: none;
@@ -230,7 +244,7 @@ header {
 	  /* to stop flickering of text in safari */
 	  
 	  transform-origin: 0% 0%;
-	  transform: translate(90%, 0);
+	  transform: translate(0, -100%);
 	  
 	  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 	}
@@ -238,11 +252,13 @@ header {
 	#menu2 li
 	{
 	  padding: 10px 0;
-	  font-size: 1.2em;
+	  font-size: 1.5em;
 	  color: white;
+	  text-align: center;
 	}
 	#menu2 a li:hover {
-    		color: #4d4d4d;
+    		color: #52e465;
+    		transition: color 0.2s linear;
 		}
 
 /*
@@ -256,7 +272,11 @@ header {
 /*Section hero*/
 	#hero {
 	z-index: 1;
-    background-image: url(../images/office.jpg);
+    background-image: linear-gradient(
+	      	rgba(25, 25, 112, 0.1),
+	      	rgba(0, 0, 0, 0.1)
+	    	),
+    		url(../images/office.jpg);
     background-position: center center;
     background-size: cover;
     position: relative;
@@ -282,7 +302,7 @@ header {
 		padding-left: 0;
 	} 
     #hero a:hover {
-    	color: #4d4d4d;
+    	color: #52e465;
 	}
 	/*Intro text*/
 	section.intro-text {
@@ -310,12 +330,12 @@ header {
 			margin: 0 auto;
 		}
 			section.intro-text .text > h2 {
-				font-weight: 900;
-	    		color: #4d4d4d;
+				font-weight: 600;
+	    		color: #383838;
 	    		font-size: 2em;
 	    		letter-spacing: -.035em;
 	    		margin: 0 0 .7em;
-	    		line-height: 1em;
+	    		line-height: 1;
 	    		word-wrap: normal;
 	    		padding: 0;
 			}
@@ -323,6 +343,11 @@ header {
 			section.intro-text .text > p {
 				padding: 0;
     			margin: 0 0 2em;
+    			line-height: 20px;
+    			letter-spacing: 0.25px;
+    			word-spacing: 1px;
+    			color: #383838;
+    			font-size: 1em;
     		}
 
     /*Section personal*/
@@ -338,8 +363,8 @@ header {
 	}
 
 	#personal h2 {
-		font-weight: 900;
-	    color: #4d4d4d;
+		font-weight: 600;
+	    color: #383838;
 	    font-size: 2em;
 	    letter-spacing: -.035em;
 	    margin: 0 0 .7em;
@@ -356,6 +381,13 @@ header {
 		margin: 20px auto;
 		padding: 20px;
 	}
+	#personal p {
+		line-height: 20px;
+    	letter-spacing: 0.25px;
+    	word-spacing: 1px;
+    	color: #383838;
+    	font-size: 1em;
+	}
 
 	/*Section Adress*/
 	#adress {
@@ -369,8 +401,8 @@ header {
 
 		#adress h2 {
 			font-size: 2em;
-			font-weight: 900;
-	    	color: #4d4d4d;
+			font-weight: 600;
+	    	color: #383838;
 	    	letter-spacing: -.035em;
 	    	margin: 0 0 .7em;
 	    	line-height: 1em;
@@ -385,7 +417,7 @@ header {
 	/*Section contuct*/
 	section.contact {
 	background-color: white;
-	color: #4d4d4d;
+	color: #383838;
 	margin-bottom: 30px;
 }
 	div#formwrap {
@@ -404,9 +436,9 @@ header {
 			padding-left: 20px;
 			padding-right: 20px;
 			font-size: 2em;
-			font-weight: 900;
-	    	color: #4d4d4d;
+			font-weight: 600;
 	    	letter-spacing: -.035em;
+	    	color: #383838;
 		} 
 
 	input {
@@ -437,14 +469,13 @@ header {
 
 /*Footer styles*/
 #footerwrap {
-	background-color: #292929;
+	background-color: rgb(12, 12, 12);
     clear: both;
     border-top: 1px solid rgba(0,0,0,.1);
     text-align: center;
     padding: 54px 0 2em;
-    color: #000;
+    color: #fcfcfc;
     min-height: 250px;
-    color: white;
     text-align: left;
 }
 	#footer {
@@ -459,23 +490,20 @@ header {
 		padding-right: 10px;
 	}
 
-	a.btn-las-mer {
-		color: white;
-	}
 	#footerwrap a:hover {
-		color: #4d4d4d;
+		color: #52e465;
 	}
-	#footer button.btn {
-		 color: #4d4d4d;
-		 border-radius: 5px;
-		 font-size: 16px;
-		 line-height: 100%;
-		 padding: 5px 10px 5px 10px;
-		 width: 8em;
-	}
-	#footer input {
-		max-width: 200px;
-	}
+		#footer h3 {
+			font-size: 1.2em;
+		}
+		#footerwrap .box {
+			padding: 20px;
+			width: 160px;
+			right: 50%;
+		}
+		#footerwrap .footer-col {
+			left: 10%;
+		}
 
 	/*Media queries*/
 
@@ -506,6 +534,19 @@ header {
 		section.intro-text .text {
 			padding-top: 20px;
 		}
+		#logo {
+			display: none;
+		}
+		.logo-col {
+			width: 100%;
+			padding: 0;
+		}
+		nav {
+			display: block;
+		}
+		#footerwrap .footer-col {
+			left: 20%;
+		}
 	}
 
 	@media (max-width: 490px) {
@@ -526,6 +567,9 @@ header {
 			padding-right: 0;
 			padding-left: 0;
 			max-width: 300px;
+		}
+		#menuToggle {
+			left: 5%;
 		}
 		
 	}

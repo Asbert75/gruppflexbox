@@ -13,6 +13,16 @@ body {
 
 p, h1, h2, h3, h4 {
     color: #383838;
+    font-size: 1em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
 }
 
 nav h3 {
@@ -20,16 +30,44 @@ nav h3 {
 }
 
 nav h3 {
-    color: white;
+    color: #fcfcfc;
 }
 
 nav a {
+    transition: color 0.2s linear;
     font-weight: 600;
-    color: #ffffff;
+    color: #fcfcfc;
     text-decoration: none;
 }
 
+nav a:hover {
+    transition: color 0.2s linear;
+    color: #52e465;
+}
+
 footer a {
-    color: #383838;
+    transition: color 0.2s linear;
     text-decoration: none;
+}
+
+footer p, footer h2, footer h3, footer a {
+    color: #fcfcfc;
+}
+
+footer h3 {
+    color: #fcfcfc;
+}
+
+footer a:hover {
+    transition: color 0.2s linear;
+    color: #52e465;
+}
+
+.hamburger p {
+    font-size: 3em;
+    color: white !IMPORTANT;
+}
+
+.hamburger ul li a {
+    font-size: 1.5em;
 }

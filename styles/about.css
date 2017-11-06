@@ -54,7 +54,7 @@ header {
 	}
 	/*Logo styles*/
 	header #logo {
-		font-size: 1.5em;
+		font-size: 2em;
 		text-decoration: none;
 		position: absolute;
 		font-weight: bold;
@@ -70,7 +70,11 @@ header {
 	}
 	.logo-col {
 		min-width: 100px;
-		width: 10%;
+		min-width: 11%;
+	}
+	.xs-two {
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 	/*Menu styles*/
@@ -81,7 +85,7 @@ header {
 		list-style: none;
 		padding-left: 5px;
 		padding-right: 5px;
-		padding-bottom: 5px;
+		padding-bottom: 0;
 		font-weight: bold;
 	}
 		header #main-nav li {

@@ -61,3 +61,8 @@ footer a:hover {
     transition: color 0.2s linear;
     color: #52e465;
 }
+
+.hamburger p {
+    font-size: 3em;
+    color: white !IMPORTANT;
+}

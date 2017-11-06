@@ -1,4 +1,5 @@
 /***GLOBAL***/
+
 main {
   margin: 0;
   padding: 0;
@@ -88,6 +89,7 @@ main {
 
 
 .buy-now {
+  margin: 0;
   position: relative;
   color: white;
   font-size: 25px;
@@ -99,10 +101,6 @@ main {
 @media screen and (max-width: 1100px) and (min-width: 651px){
   .flex-container2 p a {
     font-size: 17.5px;
-  }
-
-  .flex-container2 a:hover {
-
   }
 
   .flex-item-one {
@@ -118,7 +116,14 @@ main {
 
 /**** MAX 650 - MIN ****/
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 680px) and (min-width: 521px){
+  .flex-container2 {
+    margin: 0 2em 0 2em;
+  }
+
+  .flex-container {
+    margin: 75px 2em 75px 2em;
+  }
   .flex-item-one {
     flex: 0 0 100%;
 
@@ -140,5 +145,53 @@ main {
     color: black;
     line-height: 17.5px;
   }
+}
 
+@media screen and (max-width: 520px){
+  .flex-container2 {
+    margin: 0 2em 0 2em;
+  }
+
+  .flex-container {
+    margin: 75px 2em 75px 2em;
+  }
+  .flex-item-one {
+    flex: 0 0 100%;
+
+  }
+  .flex-item-two{
+    margin: 50px 0 0 0;
+    flex: 0 0 100%;
+
+  }
+
+  .flex-item1 h3 {
+    font-weight: 600;
+    font-size: 1em;
+  }
+
+  .flex-item1 p{
+    margin-top: 20px;
+    max-width: 100%;
+    font-size: 0.7em;
+    color: black;
+    line-height: 15px;
+  }
+  .buy-now {
+    font-size: 20px;
+  }
+
+  .flex-item-one p{
+    float: right;
+    position: relative;
+    margin: -40px 25px 0 0;
+    padding: 0;
+  }
+
+  .flex-item-two p {
+    position: relative;
+    float: right;
+    margin: -40px 15px 0 0;
+    padding: 0;
+  }
 }

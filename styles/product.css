@@ -18,7 +18,7 @@
 
 .container2 img, .container3 img, .container4 img {
     margin-top: 1em;
-    
+    width: 100%;
 }
 
 .container1 h3, .container2 h3, .container3 h3, .container4 h3 {

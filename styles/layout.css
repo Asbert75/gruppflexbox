@@ -70,7 +70,7 @@ footer .flexContainer {
 
 footer .flexItem {
     flex: 0 0 auto;
-    margin: 2em 5em;
+    margin: 2em 2em;
 }
 
 footer {
@@ -143,7 +143,8 @@ select:focus {
     top: 0;
     z-index: -1;
     display: none;
-    background: black;
+    background: rgb(12, 12, 12);
+    padding-top: 7em;
     width: 100%;
 }
 

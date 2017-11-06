@@ -10,6 +10,10 @@
     margin-bottom: 1em;
 }
 
+.bg p {
+    line-height: 1.5em;
+}
+
 .container1, .container2, .container3, .container4, .container5, .container6, .container7 {
     margin-top: 1.5em;
     border-bottom: 2px solid #52e465;

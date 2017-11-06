@@ -75,7 +75,7 @@ main h2 {
     width: 60%;
     margin-left: 20%;
     margin-top: 2em;
-    background: black;
+    background: rgb(12, 12, 12);
 }
 
 .cart a {

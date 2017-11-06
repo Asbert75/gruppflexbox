@@ -12,6 +12,15 @@
 
 .bg p {
     line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+.bg a {
+    text-decoration: none;
+    margin-top: 2em;
+    padding-top: 2em;
+    margin-bottom: 2em;
+    
 }
 
 .container1, .container2, .container3, .container4, .container5, .container6, .container7 {
@@ -23,6 +32,7 @@
 .container2 img, .container3 img, .container4 img, .container5 img, .container6 img, .container7 img {
     margin-top: 1em;
     width: 100%;
+    
 }
 
 .container1 h3, .container2 h3, .container3 h3, .container4 h3, .container5 h3, .container6 h3, .container7 h3 {

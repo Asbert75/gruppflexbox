@@ -69,12 +69,13 @@ header {
     	color: #4d4d4d;
 	}
 	.logo-col {
-		min-width: 200px;
+		min-width: 100px;
+		width: 10%;
 	}
 
 	/*Menu styles*/
-	header ul {
-		float: right;
+	header #main-nav {
+		float: left;
 		margin-top: 13px;
 		margin-right: 0;
 		list-style: none;
@@ -93,14 +94,17 @@ header {
 				color:white; 
 			}
 			#main_menu li a:hover {
-    			border-bottom: 2px solid #52e465;
+    			color: #52e465;
 			}
 			#main_menu li a.active {
-    			border-bottom: 2px solid #52e465;
+    			color: #52e465;
 			}
 	.resp-menu {
 		display: none;
-		float: right;
+		float: left;
+	}
+	nav {
+		display: none;
 	}
 
 /*Responsive menu*/
@@ -126,7 +130,7 @@ header {
 	  display: block;
 	  position: relative;
 	  top: 10px;
-	  left: 70%;
+	  left: 2%;
 	  
 	  z-index: 1;
 	  
@@ -137,11 +141,11 @@ header {
 	#menuToggle input
 	{
 	  display: block;
-	  width: 40px;
+	  width: 768%;
 	  height: 32px;
 	  position: absolute;
 	  top: -7px;
-	  left: -5px;
+	  left: -20px;
 	  
 	  cursor: pointer;
 	  
@@ -219,10 +223,10 @@ header {
 	#menu2
 	{
 	  position: absolute;
-	  width: 300px;
-	  margin: -100px 0 0 -120px;
+	  width: 100%;
+	  margin: -100px 0 70px -20px;
 	  padding: 50px;
-	  padding-top: 125px;
+	  padding-top: -50px;
 	  
 	  background: #292929;
 	  list-style-type: none;
@@ -230,7 +234,7 @@ header {
 	  /* to stop flickering of text in safari */
 	  
 	  transform-origin: 0% 0%;
-	  transform: translate(90%, 0);
+	  transform: translate(0, -100%);
 	  
 	  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 	}
@@ -240,6 +244,7 @@ header {
 	  padding: 10px 0;
 	  font-size: 1.2em;
 	  color: white;
+	  text-align: center;
 	}
 	#menu2 a li:hover {
     		color: #4d4d4d;
@@ -505,6 +510,15 @@ header {
 		}
 		section.intro-text .text {
 			padding-top: 20px;
+		}
+		#logo {
+			display: none;
+		}
+		.logo-col {
+			width: 100%;
+		}
+		nav {
+			display: block;
 		}
 	}
 

@@ -17,7 +17,7 @@ body {
     margin-top: 0;
     padding-top: 0;
     z-index: -1;
-    background-image: url(../images/bg.png);
+    background-image: url(../images/bg2.png);
     background-position: 50% 50%;
     background-size: cover;
 }
@@ -74,7 +74,7 @@ footer .flexItem {
 }
 
 footer {
-    background: black;
+    background: rgb(12, 12, 12);
 }
 
 select {

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
        .bg {
             background-image: url("https://static.pexels.com/photos/84763/pexels-photo-84763.jpeg");
             height: auto;
@@ -56,3 +57,26 @@
                     
                     
                 }
+=======
+.bg {
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2em;
+}
+
+.bg > h2 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.container1, .container2, .container3, .container4 {
+    margin-top: 1.5em;
+    border-bottom: 2px solid #52e465;
+    padding-bottom: 1em;
+}
+
+.container1 h3, .container2 h3, .container3 h3, .container4 h3 {
+    margin-bottom: 0.5em;
+}
+>>>>>>> 65f578043693a39dc766ccc1b40ef66015bb5171

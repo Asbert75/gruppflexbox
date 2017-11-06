@@ -7,23 +7,23 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="../styles/reset.css" />
-    <link rel="stylesheet" type="text/css" href="../styles/layout.css" />
-    <link rel="stylesheet" type="text/css" href="../styles/typography.css" />
-    <link rel="stylesheet" type="text/css" href="../styles/shop.css" />
+    <link rel="stylesheet" type="text/css" href="styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles/layout.css" />
+    <link rel="stylesheet" type="text/css" href="styles/typography.css" />
+    <link rel="stylesheet" type="text/css" href="styles/shop.css" />
 
-    <link rel="stylesheet" type="text/css" href="../styles/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="styles/font-awesome.css" />
 </head>
 <body>
     <div class="container">
         <nav>
-            <div>
+            <div class="desktop">
                 <ul>
                     <li>
                         <h3>MeMice</h3>
                     </li>
                     <li>
-                        <a href="../index.html">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
                         <a href="about.html">About</a>
@@ -32,9 +32,33 @@
                         <a href="product.html">Product</a>
                     </li>
                     <li>
-                        <a href="#">Shop</a>
+                        <a href="shop.htmll">Shop</a>
                     </li>
                 </ul>
+            </div>
+
+            <div class="mobile">
+                <h3>MeMice</h3>
+                <div class="hamburger">
+                    <input type="checkbox" />
+
+                    <p><i class="fa fa-bars" aria-hidden="true"></i></p>
+
+                    <ul class="mobileMenu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="product.html">Product</a>
+                        </li>
+                        <li>
+                            <a href="shop.html">Shop</a>
+                        </li>
+                    </ul>
+                </div>            
             </div>
         </nav>
 
@@ -42,15 +66,8 @@
 
         <main>
             <h2>Our Assortment</h2>
-            <!--
-            <div class="deals">
-                <img class="img1" src="../images/mouse2.jpeg" alt="Img">
-                <img class="img2" src="../images/mouse3.jpeg" alt="Img3">
-                <img class="img3" src="../images/mouse.jpeg" alt="Img2">
-            </div>
-        -->
             <div class="cart">
-                <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> My Cart (0 items)</a>
+                <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> My Cart <span>(0 items)</span></a>
             </div>
 
             <form class="search">
@@ -92,18 +109,18 @@
 
                 <div class="setting">
                     <h3>Wireless</h3>
-                    <input type="radio" id="yes" name="wireless">
-                    <label for="yes">Yes</label>
+                    <input type="checkbox" id="yes" name="wireless">
+                    <label for="yes">Yes (4)</label>
 
-                    <input type="radio" id="no" name="wireless">
-                    <label for="no">No</label>
+                    <input type="checkbox" id="no" name="wireless">
+                    <label for="no">No (15)</label>
                 </div>
             </form>
 
             <div class="flexContainer">
                 <div class="flexItem naga">
                     <h3 class="name"></h3>
-                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <img src="images/mouse.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
                     <h3 class="price">699:-</h3>
                     <button class="buy">Add to Cart</button>
@@ -111,7 +128,7 @@
 
                 <div class="flexItem deathadder">
                     <h3 class="name"></h3>
-                    <img src="../images/mouse3.jpeg" alt="Mouse">
+                    <img src="images/mouse3.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
                     <h3 class="price">899:-</h3>
                     <button class="buy">Add to Cart</button>
@@ -119,7 +136,7 @@
 
                 <div class="flexItem rival">
                     <h3 class="name"></h3>
-                    <img src="../images/mouse2.jpeg" alt="Mouse">
+                    <img src="images/mouse2.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
                     <h3 class="price">1.299:-</h3>
                     <button class="buy">Add to Cart</button>
@@ -127,7 +144,7 @@
 
                 <div class="flexItem sensei">
                     <h3 class="name"></h3>
-                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <img src="images/mouse.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
                     <h3 class="price">350:-</h3>
                     <button class="buy">Add to Cart</button>
@@ -135,7 +152,7 @@
 
                 <div class="flexItem rival">
                     <h3 class="name"></h3>
-                    <img src="../images/mouse2.jpeg" alt="Mouse">
+                    <img src="images/mouse2.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
                     <h3 class="price">1.299:-</h3>
                     <button class="buy">Add to Cart</button>
@@ -143,7 +160,7 @@
 
                 <div class="flexItem deathadder">
                     <h3 class="name"></h3>
-                    <img src="../images/mouse2.jpeg" alt="Mouse">
+                    <img src="images/mouse2.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
                     <h3 class="price">899:-</h3>
                     <button class="buy">Add to Cart</button>
@@ -151,7 +168,7 @@
 
                 <div class="flexItem deathadder">
                     <h3 class="name"></h3>
-                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <img src="images/mouse.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
                     <h3 class="price">899:-</h3>
                     <button class="buy">Add to Cart</button>
@@ -159,7 +176,7 @@
 
                 <div class="flexItem rival">
                     <h3 class="name"></h3>
-                    <img src="../images/mouse3.jpeg" alt="Mouse">
+                    <img src="images/mouse3.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
                     <h3 class="price">1.299:-</h3>
                     <button class="buy">Add to Cart</button>
@@ -167,7 +184,7 @@
 
                 <div class="flexItem naga">
                     <h3 class="name"></h3>
-                    <img src="../images/mouse2.jpeg" alt="Mouse">
+                    <img src="images/mouse2.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
                     <h3 class="price">699:-</h3>
                     <button class="buy">Add to Cart</button>
@@ -175,7 +192,7 @@
 
                 <div class="flexItem sensei">
                     <h3 class="name"></h3>
-                    <img src="../images/mouse3.jpeg" alt="Mouse">
+                    <img src="images/mouse3.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
                     <h3 class="price">350:-</h3>
                     <button class="buy">Add to Cart</button>
@@ -183,7 +200,7 @@
 
                 <div class="flexItem deathadder">
                     <h3 class="name"></h3>
-                    <img src="../images/mouse2.jpeg" alt="Mouse">
+                    <img src="images/mouse2.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
                     <h3 class="price">899:-</h3>
                     <button class="buy">Add to Cart</button>
@@ -191,9 +208,41 @@
 
                 <div class="flexItem rival">
                     <h3 class="name"></h3>
-                    <img src="../images/mouse.jpeg" alt="Mouse">
+                    <img src="images/mouse.jpeg" alt="Mouse">
                     <p class="itemDescription"></p>
                     <h3 class="price">1.299:-</h3>
+                    <button class="buy">Add to Cart</button>
+                </div>
+
+                <div class="flexItem rival">
+                    <h3 class="name"></h3>
+                    <img src="images/mouse2.jpeg" alt="Mouse">
+                    <p class="itemDescription"></p>
+                    <h3 class="price">1.299:-</h3>
+                    <button class="buy">Add to Cart</button>
+                </div>
+
+                <div class="flexItem sensei">
+                    <h3 class="name"></h3>
+                    <img src="images/mouse.jpeg" alt="Mouse">
+                    <p class="itemDescription"></p>
+                    <h3 class="price">350:-</h3>
+                    <button class="buy">Add to Cart</button>
+                </div>
+
+                <div class="flexItem rival">
+                    <h3 class="name"></h3>
+                    <img src="images/mouse2.jpeg" alt="Mouse">
+                    <p class="itemDescription"></p>
+                    <h3 class="price">1.299:-</h3>
+                    <button class="buy">Add to Cart</button>
+                </div>
+
+                <div class="flexItem deathadder">
+                    <h3 class="name"></h3>
+                    <img src="images/mouse2.jpeg" alt="Mouse">
+                    <p class="itemDescription"></p>
+                    <h3 class="price">899:-</h3>
                     <button class="buy">Add to Cart</button>
                 </div>
             </div>

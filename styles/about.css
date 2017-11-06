@@ -8,22 +8,264 @@ html {
 }
 
 body {
-	background-color: white;
 	font-family: 'Open Sans', Arial, sans-serif;
 	font: 1em/1.85em 'Open Sans', "Arial", sans-serif;
 	height: 100%;
 	word-wrap: break-word;
-	color: #666;
 	line-height: 30px;
+	min-width: 280px;
 }
 
+.row {
+	min-width: 270px;
+}
 #about_wrap {
 	padding-top: 0 !important;
 	height: 100%
 }
 
+.white {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+.center {
+	text-align: center;
+}
+.mb-30 {margin-bottom: 30px;}
+
 /*Header styles*/
 header {
-	background-color: #333;
-	height: 70px;
+	height: 100px;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+    transition: all .3s ease-in-out;
 }
+	#header-row {
+		padding-top: 1em;
+		padding-right: 0;
+	}
+	/*Logo styles*/
+	header #logo {
+		font-size: 1.5em;
+		text-decoration: none;
+		position: absolute;
+		font-weight: bold;
+		left: 0;
+		right: 0;
+		margin: 0;
+		padding: 0;
+		text-align: left;
+		transform: translateY(50%); /*Fits text into screen size*/
+	}
+	.logo-col {
+		min-width: 200px;
+	}
+
+	/*Menu styles*/
+	header ul {
+		float: right;
+		margin-top: 13px;
+		margin-right: 0;
+		list-style: none;
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-bottom: 5px;
+		font-weight: bold;
+	}
+		header ul li {
+			min-width: 70px;
+			text-align: center;
+			display: inline-block;  /*makes the menu appear inside the parent element*/
+			}
+
+			header ul li a { 
+				color:white; 
+			}
+			nav li a:hover {
+    			border-bottom: 2px solid #52e465;
+			}
+			nav li a.active {
+    			border-bottom: 2px solid #52e465;
+			}
+	.resp-menu {
+		display: none;
+		float: right;
+	}
+		.fa-bars {
+			float: right;
+		}
+		.fa-times {
+			display: none;
+			float: right;
+		}
+
+/*Section hero*/
+	#hero {
+	z-index: 1;
+    background-image: url(../images/office.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 550px;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    transition: all .5s ease-out;
+	}
+
+	#hero .text {
+		font-size: 3em;
+		padding: 0;
+		margin: 0;
+		font-weight: bold;
+		top: 350px;
+		left: 0;
+		position: absolute;
+		text-align: left;
+		line-height: 0.9;
+	}
+	#hero .column {
+		padding-left: 0;
+	} 
+
+	/*Intro text*/
+	section.intro-text {
+		background-color: white;
+		color: #666;
+		margin-bottom: 30px;
+    }
+    section.intro-text > .row {
+		padding-top: 6%;
+    	padding-bottom: 4%;
+    	padding-left: 0;
+    	padding-right: 0;
+    }
+
+		section.intro-text img {
+			vertical-align: top;
+			border: none;
+			max-width: 100%;
+			position: relative;
+			height: auto;
+			margin: 0 auto;
+		}
+
+		section.intro-text .text {
+			margin: 0 auto;
+		}
+			section.intro-text .text > h2 {
+				font-weight: 900;
+	    		color: #4d4d4d;
+	    		font-size: 2em;
+	    		letter-spacing: -.035em;
+	    		margin: 0 0 .7em;
+	    		line-height: 1em;
+	    		word-wrap: normal;
+	    		padding: 0;
+			}
+
+			section.intro-text .text > p {
+				padding: 0;
+    			margin: 0 0 2em;
+    		}
+
+    /*Section personal*/
+
+   #personal {
+   	color: #4d4d4d;
+   }
+   #personal .box {
+		margin-bottom: 30px;
+		min-height: 400px;
+		padding: 20px;
+		text-align: center;
+	}
+
+	#personal h2 {
+		font-weight: 900;
+	    color: #4d4d4d;
+	    font-size: 2em;
+	    letter-spacing: -.035em;
+	    margin: 0 0 .7em;
+	    line-height: 1em;
+	    word-wrap: normal;
+	    padding: 0;
+	}
+
+	#personal img {
+		max-width: 400px;
+		height: auto;
+		position: relative;
+		display: block;
+		margin: 20px auto;
+		padding: 20px;
+	}
+
+/*Footer styles*/
+#footerwrap {
+	background-color: #292929;
+    clear: both;
+    border-top: 1px solid rgba(0,0,0,.1);
+    text-align: center;
+    padding: 54px 0 2em;
+    color: #000;
+    min-height: 250px;
+    color: white;
+    text-align: left;
+}
+	#footer {
+	    font-size: .9em;
+	    line-height: 1.8em;
+	    margin: 0 auto;
+	}
+
+	a.btn-las-mer {
+		color: white;
+	}
+	#footerwrap a:hover {
+		color: #e6e6e6;
+	}
+
+	/*Media queries*/
+
+	@media (max-width: 768px) {
+		#header-row {
+			margin-right: 0;
+			margin-left: 0;
+			width: 100%;
+		}
+		.menu {
+			display: none;
+		}
+		.resp-menu {
+			display: block;
+		}
+		#hero .text {
+			font-size: 2em;
+			top: 300px;
+		}
+		.row {
+			margin-right: 0;
+			margin-left: 0;
+			width: 100%;
+		}
+		#hero {
+			background-position: right center;
+		}
+		section.intro-text .text {
+			padding-top: 20px;
+		}
+	}
+
+	@media (max-width: 490px) {
+		#hero {
+			background-position: 70% center;
+		}
+	}

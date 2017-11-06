@@ -42,15 +42,15 @@ main .flexItem button {
     height: 40px;
     width: 125px;
     
-    color: #383838;
-    background: #52e465;
+    color: white;
+    background: #383838;
     outline: 0;
     border: 0;
 }
 
 main .flexItem button:hover {
     transition: all 0.2s linear;
-    background: #47c754;
+    background: #52e465;
     cursor: pointer;
 }
 
